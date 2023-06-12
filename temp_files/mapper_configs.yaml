@@ -1,0 +1,17 @@
+collection: sentinel2-msi
+created_at: 2023-06-12 19:21:29.732594
+created_by: gperich
+data_source: STAC (https://planetarycomputer.microsoft.com/api/stac/v1)
+eodal_version: 0.2.1
+feature:
+  attributes: {}
+  epsg: 4326
+  geometry: POLYGON ((8.665850958103075 47.43686554708487, 8.665850958103075 47.46020680051335,
+    8.712927210431618 47.46020680051335, 8.712927210431618 47.43686554708487, 8.665850958103075
+    47.43686554708487))
+  name: geometry
+metadata_filters:
+- cloudy_pixel_percentage < 25
+- processing_level == Level-2A
+time_end: 2023-06-12 00:00:00
+time_start: 2023-05-12 00:00:00
