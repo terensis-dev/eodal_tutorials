@@ -1,5 +1,5 @@
 collection: sentinel2-msi
-created_at: 2023-06-12 19:21:29.732594
+created_at: 2023-06-13 10:35:50.089379
 created_by: gperich
 data_source: STAC (https://planetarycomputer.microsoft.com/api/stac/v1)
 eodal_version: 0.2.1
